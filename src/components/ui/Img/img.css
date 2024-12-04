@@ -1,0 +1,110 @@
+.like-img {
+    position: absolute;
+    animation-name: like1;
+    animation-duration: 500ms;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes like1 {
+    from {
+        opacity: 1;
+        bottom: 15px;
+        left: 50px;
+    }
+
+    25% {
+        left: 0;
+    }
+
+    50% {
+        left: 50px;
+    }
+
+    75% {
+        left: 100px;
+    }
+
+    to {
+        opacity: 0;
+        left: 50px;
+        bottom: 200px;
+    }
+}
+
+@keyframes like2 {
+    from {
+        opacity: 1;
+        bottom: 15px;
+        left: 50px;
+    }
+
+    25% {
+        left: 50px;
+    }
+
+    50% {
+        left: 100px;
+    }
+
+    75% {
+        left: 0;
+    }
+
+    to {
+        opacity: 0;
+        left: 50px;
+        bottom: 200px;
+    }
+}
+
+@keyframes like3 {
+    from {
+        opacity: 1;
+        bottom: 15px;
+        left: 50px;
+    }
+
+    25% {
+        left: 50px;
+    }
+
+    50% {
+        left: 0;
+    }
+
+    75% {
+        left: 100px;
+    }
+
+    to {
+        opacity: 0;
+        left: 50px;
+        bottom: 200px;
+    }
+}
+
+@keyframes like4 {
+    from {
+        opacity: 1;
+        bottom: 15px;
+        left: 50px;
+    }
+
+    25% {
+        left: 100px;
+    }
+
+    50% {
+        left: 50px;
+    }
+
+    75% {
+        left: 0px;
+    }
+
+    to {
+        opacity: 0;
+        left: 50px;
+        bottom: 200px;
+    }
+}

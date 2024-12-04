@@ -1,0 +1,11 @@
+.collapse-text {
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 1.1rem;
+    color: gray;
+}

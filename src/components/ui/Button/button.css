@@ -1,0 +1,108 @@
+.collapse-btn {
+    padding: 10px;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 7px;
+    background-color: rgb(64, 64, 230);
+    border: 3px solid transparent;
+    transition: background-color 1s;
+    cursor: pointer;
+}
+
+.collapse-btn:hover {
+    background-color: rgb(49, 49, 175);
+}
+
+.collapse-btn:active {
+    background-color: white;
+}
+
+.collapse-btn_collapse-active {
+    outline: rgb(135, 135, 224) solid 4px;
+}
+
+.btn-add-chat {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: 1s;
+    transform-origin: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+}
+
+.btn-add-chat:hover {
+    transform: scale(1.5);
+    box-shadow: none;
+}
+
+.close-btn {
+    background-color: transparent;
+    font-size: 1.8rem;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn {
+    border: 1.5px solid gray;
+    background-color: rgb(187, 185, 185);
+    font-size: 1.3rem;
+    padding: 5px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.submit-btn:hover {
+    border: 1.5px solid rgb(187, 185, 185);
+    background-color: gray;
+}
+
+.btn-action {
+    border: 1.5px solid rgba(0, 0, 255, 0.9);
+    background-color: white;
+    font-size: 1.3rem;
+    padding: 5px;
+    width: 20%;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 500ms;
+    color: gray;
+}
+
+.btn-action:hover {
+    border: 1.5px solid gray;
+    background-color: rgba(0, 0, 255, 0.9);
+    color: white;
+}
+
+.btn-like {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 1.3rem;
+}
+
+.btn-like:hover {
+    background-color: rgb(216, 4, 4);
+}
+
+.btn-like:active {
+    background-color: white;
+}

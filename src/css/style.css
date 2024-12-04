@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 0;
+}
+
+#app {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}

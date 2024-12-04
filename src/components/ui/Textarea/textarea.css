@@ -1,0 +1,14 @@
+.form-textarea {
+    width: 100%;
+    min-height: 200px;
+    border-radius: 15px;
+    border: 2px solid gray;
+    color: gray;
+    font-size: 1.3rem;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form-textarea:focus {
+    outline: transparent;
+}
