@@ -8,7 +8,7 @@ export default class Heading {
   get element() {
     return this.createElement();
   }
-  
+
   createElement() {
     const heading = document.createElement(`h${this.getLevel()}`);
 

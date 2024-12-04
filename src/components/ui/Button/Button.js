@@ -15,7 +15,7 @@ export default class Button {
     !Array.isArray(this.params.class)
       ? btn.classList.add(this.params.class)
       : btn.classList.add(...this.params.class);
-      
+
     if (this.params.text) btn.innerHTML = this.params.text;
     btn.type = this.params.type;
 

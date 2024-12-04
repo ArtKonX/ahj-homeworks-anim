@@ -1,20 +1,20 @@
-import './img.css';
+import "./img.css";
 
 export default class Img {
-    constructor(params) {
-        this.params = params;
-    }
+  constructor(params) {
+    this.params = params;
+  }
 
-    get element() {
-        return this.createElement();
-    }
+  get element() {
+    return this.createElement();
+  }
 
-    createElement() {
-        const img = document.createElement("img");
+  createElement() {
+    const img = document.createElement("img");
 
-        img.classList.add(this.params.class);
-        img.src = this.params.src;
+    img.classList.add(this.params.class);
+    img.src = this.params.src;
 
-        return img;
-    }
+    return img;
+  }
 }
